@@ -12,7 +12,7 @@ HTML 구조 분석과 css 선택자 사용 연습을 할 수 있는 좋은 예�
 
     from openpyxl import Workbook
 
-    url = 'https://finance.naver.com/'
+    url = 'https://finance.naver.com/' // spider tm siem 페이지로 변경
 
     response = requests.get(url)
     response.raise_for_status()
